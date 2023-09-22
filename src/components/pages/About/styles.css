@@ -1,0 +1,60 @@
+#aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 70vh;
+  height: fit-content;
+  width:100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+#bio {
+  width: 100%;
+  background-color: #333;
+}
+
+#bio p {
+  background-color: #777;
+  padding: 1.5em;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+#gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-height: 100%;
+  background-color: #333;
+}
+
+#gallery img {
+  border-radius: 100%;
+  object-fit: contain;
+  width: 80%;
+  height: auto;
+  max-height: 700px;
+  max-width: 400px;
+  padding: 10% 0;
+}
+
+@media only screen and (min-width: 64em) {
+  #aboutMe {
+    flex-wrap: nowrap;
+  }
+
+  #bio {
+    width: 50%;
+    padding: 0 2.5vw;
+  }
+
+  #gallery {
+    width: 30%;
+    border-radius: 0 45% 45% 0;
+    padding: 0 2.5vw;
+  }
+}
