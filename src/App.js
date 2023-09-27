@@ -6,6 +6,7 @@ import Header from './components/elements/Header'
 import Body from './components/pages/Body'
 import About from './components/pages/About'
 import './App.css';
+import Projects from './components/pages/Projects';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Header id={'header'} />
       <Navbar />
       <About />
-      <Body id={'first'}/>
+      <Projects />
       <Body id={'second'}/>
     </>
   );

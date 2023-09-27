@@ -1,0 +1,16 @@
+#projectContainer {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  width: 160%;
+  max-height: 200px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
