@@ -9,7 +9,7 @@ export default function ProjectCard({repo}) {
   return(
     <div className='projectCard'>
       <img
-        // src={`https://raw.githubusercontent.com/shyguyMatt/${repo.name}/main/public/thumbnail.png`}
+        src={`https://raw.githubusercontent.com/shyguyMatt/${repo.name}/main/public/thumbnail.png`}
         alt='nothing here yet'
       ></img>
       <h2>{repo.name}</h2>
