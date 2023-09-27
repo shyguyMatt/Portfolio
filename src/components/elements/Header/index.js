@@ -7,14 +7,14 @@ import {
   faDesktop,
 } from '@fortawesome/free-solid-svg-icons'
 
-import './styles.css'
+import './styles.scss'
 
 export default function Header({ id }) {
 
   return(
     <header
       id={id}
-      style={{height: '30vh', backgroundColor: '#222'}}
+      style={{height: '30vh', backgroundColor: '#26351c'}}
     >
       <div id='sizeIndicator'>
         <FontAwesomeIcon id='small' icon={faMobileScreenButton} style={{color: "#ffffff",}} />

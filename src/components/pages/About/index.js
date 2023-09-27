@@ -1,7 +1,7 @@
 import React from 'react';
 import img from './../../../assets/images/me.PNG'
 
-import './styles.css'
+import './styles.scss'
 
 export default function About() {
 

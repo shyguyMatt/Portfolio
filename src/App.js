@@ -16,7 +16,6 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
-      <Body id={'second'}/>
     </>
   );
 }

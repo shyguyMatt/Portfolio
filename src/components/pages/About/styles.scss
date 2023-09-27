@@ -14,13 +14,13 @@ h1 {
 #bio {
   width: 100%;
   background-color: #333;
-}
 
-#bio p {
-  background-color: #777;
-  padding: 1.5em;
-  margin: 1em;
-  border-radius: 1em;
+  p {
+    background-color: #777;
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+  }
 }
 
 #gallery {
@@ -30,16 +30,16 @@ h1 {
   width: 100%;
   max-height: 100%;
   background-color: #333;
-}
 
-#gallery img {
-  border-radius: 100%;
-  object-fit: contain;
-  width: 80%;
-  height: auto;
-  max-height: 700px;
-  max-width: 400px;
-  padding: 10% 0;
+  img {
+    border-radius: 100%;
+    object-fit: contain;
+    width: 80%;
+    height: auto;
+    max-height: 700px;
+    max-width: 400px;
+    padding: 10% 0;
+  }
 }
 
 @media only screen and (min-width: 64em) {
