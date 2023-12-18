@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Portfolio",
+    "description": "I built this portfolio 100% from sratch using React. This was my first introduction to Sass.",
+    "skills": [
+      "javaScript",
+      "HTML 5",
+      "Css",
+      "React",
+      "Sass"
+    ],
+    "github": "https://github.com/shyguyMatt/Portfolio",
+    "deployed": "https://shyguymatt.com/",
+    "img": ""
+  },
+
+  {
+    "id": 1,
+    "name": "Maze Game",
+    "description": "I built this app with a team of 5 during my time in MSU FullStack Web Development Bootcamp. Its built with a front end using handlebars to template and a mix of MySql2 and express.js to handle the backend.",
+    "skills": [
+      "javaScript",
+      "MySql2",
+      "express.js",
+      "handlebars",
+      "HTML 5",
+      "Bulma"
+    ],
+    "github": "https://github.com/shyguyMatt/Maze-Game",
+    "deployed": "https://maze-project-dc526e280a7e.herokuapp.com/",
+    "img": "./../../../assets/images/thumbnail.png"
+  },
+
+  {
+    "id": 2,
+    "name": "ConnectMates",
+    "description": "ConnectMates is an app I built with 4 teamates, using React on the frontend with graphql queries to the backend. The backend is built on apollo and serves up a MongoDb database.",
+    "skills": [
+      "javaScript",
+      "MongoDb",
+      "apollo",
+      "React",
+      "tailwind",
+      "jws tokens"
+    ],
+    "github": "https://github.com/shyguyMatt/ConnectMates",
+    "deployed": "https://connectmates-ca7721bc17d4.herokuapp.com/",
+    "img": ""
+  },
+
+  {
+    "id": 3,
+    "name": "ReadMe Generator",
+    "description": "This ReadMe generator was built during my time in bootcamp. It uses the command line to build a ReadMe for any project.",
+    "skills": [
+      "javaScript",
+      "inquirer",
+      "command line"
+    ],
+    "github": "https://github.com/shyguyMatt/ReadMe-generator",
+    "deployed": false,
+    "img": ""
+  },
+
+  {
+    "id": 4,
+    "name": "Weather App",
+    "description": "I built this app during my time in MSU FullStack Web Development bootcamp. Its built with strait javascript, Html, and Css.",
+    "skills": [
+      "javaScript",
+      "HTML 5",
+      "Css"
+    ],
+    "github": "https://github.com/shyguyMatt/weather-app",
+    "deployed": "https://shyguymatt.github.io/weather-app/",
+    "img": ""
+  }
+]

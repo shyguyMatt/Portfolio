@@ -13,8 +13,7 @@ export default function Navbar() {
       </div>
 
       <a href='#aboutMe'>About Me</a>
-      <a href='#first'>Body 1</a>
-      <a href='#second'>Body 2</a>
+      <a href='#PortfolioContainer'>Projects</a>
     </nav> 
   )
 };

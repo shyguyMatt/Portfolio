@@ -1,3 +1,7 @@
+header {
+  margin: 0;
+}
+
 #sizeIndicator {
   display: flex;
   align-items: center;
@@ -6,7 +10,7 @@
   right: 0px;
   top: 0px;
   margin: 10px;
-  background-color: #3a522a;
+  background-color: #444;
   border-radius: 30%;
   height: fit-content;
   width: fit-content;
