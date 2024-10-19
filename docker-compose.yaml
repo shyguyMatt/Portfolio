@@ -1,0 +1,17 @@
+services:
+  app:
+    image: portfolio
+    container_name: portfolio
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.portfolio.rule=Host(`portfolio.shyguymatt.com`)
+      - traefik.http.routers.portfolio.entrypoints=web
+    ports:
+      - 5700:5700
+    networks:
+      - web
+
+networks:
+  web:
+    driver: bridge
+    external: true

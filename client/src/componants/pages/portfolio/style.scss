@@ -1,0 +1,409 @@
+:root {
+  --main: #F5EADF;
+  --hover: #EBDDCE;
+}
+
+#portfolio-root{
+  position: fixed;
+  display: flex;
+  height: 100dvh;
+  width: 100vw;
+  background-color: var(--main);
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  filter: invert(0);
+
+  #vert-translate-nav{
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    translate:-50% -50%;
+    transition: transform 1s;
+
+    button{
+      text-align: left;
+      font-size: 10vh;
+      color: #000;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      background: none;
+      border: none;
+    }
+    button:hover{
+      color: gray;
+      position: relative;
+      left: 10px;
+    }
+  }
+  .nav-up{
+    transform: translateY(-300%)
+  }
+
+  #portfolio-nav{
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    height: 87%;
+
+    #hori-translate-nav{
+      position: absolute;
+      bottom: 1dvh;
+      left: -35px;
+      display: flex;
+      flex-direction: column;
+      transition: transform 1s;
+
+      button{
+        text-align: left;
+        color: black;
+        font-size: 2vh;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        background: none;
+        border: none;
+        rotate: -90deg;
+        width: 1%;
+        height: 10vh;
+      }
+      button:hover{
+        color: gray;
+        position: relative;
+      }
+    }
+    .nav-left{
+      transform: translateX(-200%)
+    }
+  }
+
+  #inner-page{
+    z-index: 1;
+    position: relative;
+    border: 2px #000 solid;
+    padding: 20px;
+    width: 80%;
+    height: 87%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    overflow: hidden;
+
+    .spacer{
+      height: 20px;
+    }
+
+    #portfolio-about{
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      transition: transform 1s;
+
+      #portfolio-about-header{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        overflow: hidden;
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        height: 200px;
+        transition: transform 1s;
+  
+        img{
+          position: absolute;
+          right: 0px;
+          height: 100%;
+          object-fit: contain;
+        }
+        h1{
+          font-size: 7vh;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 700;
+          font-style: italic;
+          margin-bottom: 0px;
+        }
+        h2{
+          font-size: 5vh;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight:  400;
+          font-style: italic;
+          margin-top: 5px;
+        }
+      }
+      #portfolio-about-body{
+        position: absolute;
+        top: 220px;
+        bottom: 20px;
+        right: 20px;
+        left: 20px;
+        transition: transform 1s;
+      }
+    }
+
+    #portfolio-projects{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      transition: transform 1s;
+
+      #portfolio-projects-header{
+        position: absolute;
+        overflow: hidden;
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        height: 100px;
+        transition: transform 1s;
+
+        h1{
+          font-size: 7vh;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+      #portfolio-projects-body{
+        position: absolute;
+        top: 120px;
+        bottom: 20px;
+        right: 20px;
+        left: 20px;
+        transition: transform 1s;
+
+        .project-card{
+          text-align: end;
+          
+          h5{
+            font-size: 5vh;
+            font-family: "Josefin Sans", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            margin: 0;
+          }
+          ul li{
+            list-style-type: none;
+          }
+        }
+      }
+    }
+
+    #portfolio-contact{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      transition: transform 1s;
+
+      #portfolio-contact-header{
+        position: absolute;
+        overflow: hidden;
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        height: 100px;
+        transition: transform 1s;
+
+        h1{
+          font-size: 7vh;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+      #portfolio-contact-body{
+        position: absolute;
+        top: 120px;
+        bottom: 20px;
+        right: 20px;
+        left: 20px;
+        transition: transform 1s;
+
+        #left-panel{
+          width: 100%;
+          height: fit-content;
+          // background-color: red;
+        }
+        #right-panel{
+          width: 100%;
+          height: fit-content;
+          // background-color: blue;
+        }
+      }
+
+      #contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        input{
+          width: 90%;
+          border: 2px #000 solid;
+          background-color: var(--main);
+          height: 5dvh;
+        }
+        textarea{
+          width: 90%;
+          height: 30%;
+          border: 2px #000 solid;
+          background-color: var(--main);
+          resize: vertical;
+        }
+        #input-button{
+          width: 91%;
+          background-color: var(--main);
+          border: 2px #000 solid;
+          height: 5dvh;
+        }
+        #input-button:hover{
+          background-color: var(--hover);
+          width: 90%;;
+        }
+
+      }
+    }
+
+    #portfolio-resume{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      transition: transform 1s;
+
+      #portfolio-resume-header{
+        position: absolute;
+        overflow: hidden;
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        height: 100px;
+        transition: transform 1s;
+
+        h1{
+          font-size: 7vh;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+      #portfolio-resume-body{
+        position: absolute;
+        top: 120px;
+        bottom: 20px;
+        right: 20px;
+        left: 20px;
+        transition: transform 1s;
+      }
+    }
+    .body-up{
+      transform: translateY(-150%);
+    }
+    .body-down{
+      transform: translateY(150%)
+    }
+    .header-up{
+      transform: translateY(-200%);
+
+    }
+  }
+
+  h1{
+    margin: 0px;
+  }
+}
+
+@media print{
+  #portfolio-root{
+    position: static;
+    background-color: #fff;
+    color: #000;
+    display: block;
+
+    #inner-page{
+      position: static;
+      border: none;
+      width: auto;
+      height: auto;
+
+      #portfolio-about{
+        position: static !important;
+      }
+      #portfolio-projects{
+        position: static !important;
+      }
+      #portfolio-contact{
+        position: static !important;
+      }
+      #portfolio-resume{
+        position: static !important;
+      }
+    }
+
+    #hori-translate-nav{
+      display: none !important
+    }
+
+  }
+}
+
+@media only screen and (min-width: 48em) {
+
+}
+
+@media only screen and (min-width: 64em) {
+  #portfolio-contact-body{
+    position: absolute;
+    top: 120px;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    transition: transform 1s;
+
+    #left-panel{
+      position: absolute;
+      top: 0;
+      right: 50% !important;
+      left: 0 !important;
+      width: 50% !important;
+      height: fit-content;
+      // background-color: red;
+    }
+    #right-panel{
+      position: absolute;
+      top: 0;
+      left: 50% !important;
+      right: 0 !important;
+      width: 50% !important;
+      height: fit-content;
+      // background-color: blue;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 80em) {
+
+}
