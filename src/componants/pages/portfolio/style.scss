@@ -185,6 +185,13 @@
         right: 20px;
         left: 20px;
         transition: transform 1s;
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        #portfolio-projects-body::-webkit-scrollbar {
+          display: none;
+        }
 
         .project-card{
           text-align: end;
@@ -374,6 +381,12 @@
 }
 
 @media only screen and (min-width: 64em) {
+  #portfolio-projects-body{
+    right: 20px;
+    left: initial !important;
+    width: 70%;
+  }
+
   #portfolio-contact-body{
     position: absolute;
     top: 120px;

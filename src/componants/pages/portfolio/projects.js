@@ -1,17 +1,5 @@
 import React, { useEffect } from 'react'
-
-const projects = [
-  {
-    title: 'Flashcards PWA',
-    desc: 'A simple app for creating and displaying flashcards used for studying. Built using firebase and firestore for authentication and databases.',
-    links: ['https://github.com/shyguyMatt/flashcard-pwa', 'https://flashcards-26a5d.web.app/']
-  },
-  {
-    title: 'Portfolio',
-    desc: 'A Static webpage built with React for showing off myself and my skills.',
-    links: ['https://github.com/shyguyMatt/shyguymatt-website', 'https://portfolio.shyguymatt.com/']
-  }
-]
+import projects from './../../../projects.json'
 
 export default function Projects(props) {
   useEffect(() => {

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Flashcards PWA",
+    "desc": "A simple app for creating and displaying flashcards used for studying. Built using firebase and firestore for authentication and databases.",
+    "links": ["https://github.com/shyguyMatt/flashcard-pwa", "https://flashcards-26a5d.web.app/"]
+  },
+  {
+    "title": "Portfolio",
+    "desc": "A Static webpage built with React for showing off myself and my skills. Runs a simple nodeJS backend running express to serve the webpage.",
+    "links": ["https://github.com/shyguyMatt/shyguymatt-website", "https://portfolio.shyguymatt.com/"]
+  },
+  {
+    "title": "Card Game Engine",
+    "desc": "An engine built with react for playing simple card games with friends. It uses WebRTC to communicate between peers, making it a virtually serverless application. Simple enough for anybody to learn with its simple drag and drop interface.",
+    "links": ["https://github.com/shyguyMatt/Card-Game-Engine", "https://cardgame.shyguymatt.com/"]
+  },
+  {
+    "title": "Librarian Script",
+    "desc": "A script I wrote to run along side my Calibre book server. When new books are detected in the watched folder, it will extract metadata and convert book to epub if not already. Contains a discord bot to alert me of progress or errors, aswell as perform actions as needed with slash commands.",
+    "links": ["https://github.com/shyguyMatt/Calibre-Librarian"]
+  },
+  {
+    "title": "Chatroom application",
+    "desc": "A chatroom application built in javascript and socket.js. Runs alongside a discord bot built with nodeJS for seamless communication between web and discord. Chatlogs are stored in a MySQL database.",
+    "links": ["https://github.com/shyguyMatt/chatroom-application", "https://chatroom.shyguymatt.com/"]
+  },
+  {
+    "title": "ConnectMates",
+    "desc": "An app for finding people with simalar interests. Prototype project built with classmates during my time at bootcamp. Utilizes mongoDB on the backend for saving users and authentication. The frontend is react styled with tailwind.",
+    "links": ["https://github.com/shyguyMatt/ConnectMates"]
+  },
+  {
+    "title": "Web Based Maze Game",
+    "desc": "An app where you can play a game finding your way through a maze. The maze is comprised of tiles, only one of which will be visible at a time, each tile allows you to in cardinal directions based on where you are in the maze. Tile data is stored in a mongoDB serverside.",
+    "links": ["https://github.com/shyguyMatt/Maze-Game"]
+  }
+]
