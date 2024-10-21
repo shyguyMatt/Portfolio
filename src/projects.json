@@ -1,15 +1,5 @@
 [
   {
-    "title": "Flashcards PWA",
-    "desc": "A simple app for creating and displaying flashcards used for studying. Built using firebase and firestore for authentication and databases.",
-    "links": ["https://github.com/shyguyMatt/flashcard-pwa", "https://flashcards-26a5d.web.app/"]
-  },
-  {
-    "title": "Portfolio",
-    "desc": "A Static webpage built with React for showing off myself and my skills. Runs a simple nodeJS backend running express to serve the webpage.",
-    "links": ["https://github.com/shyguyMatt/shyguymatt-website", "https://portfolio.shyguymatt.com/"]
-  },
-  {
     "title": "Card Game Engine",
     "desc": "An engine built with react for playing simple card games with friends. It uses WebRTC to communicate between peers, making it a virtually serverless application. Simple enough for anybody to learn with its simple drag and drop interface.",
     "links": ["https://github.com/shyguyMatt/Card-Game-Engine", "https://cardgame.shyguymatt.com/"]
@@ -23,6 +13,16 @@
     "title": "Chatroom application",
     "desc": "A chatroom application built in javascript and socket.js. Runs alongside a discord bot built with nodeJS for seamless communication between web and discord. Chatlogs are stored in a MySQL database.",
     "links": ["https://github.com/shyguyMatt/chatroom-application", "https://chatroom.shyguymatt.com/"]
+  },
+  {
+    "title": "Portfolio",
+    "desc": "A Static webpage built with React for showing off myself and my skills. Runs a simple nodeJS backend running express to serve the webpage.",
+    "links": ["https://github.com/shyguyMatt/shyguymatt-website", "https://portfolio.shyguymatt.com/"]
+  },
+  {
+    "title": "Flashcards PWA",
+    "desc": "A simple app for creating and displaying flashcards used for studying. Built using firebase and firestore for authentication and databases.",
+    "links": ["https://github.com/shyguyMatt/flashcard-pwa", "https://flashcards-26a5d.web.app/"]
   },
   {
     "title": "ConnectMates",
