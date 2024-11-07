@@ -2,7 +2,7 @@
   {
     "title": "Card Game Engine",
     "desc": "An engine built with react for playing simple card games with friends. It uses WebRTC to communicate between peers, making it a virtually serverless application. Simple enough for anybody to learn with its simple drag and drop interface.",
-    "links": ["https://github.com/shyguyMatt/Card-Game-Engine", "https://cardgame.shyguymatt.com/"]
+    "links": ["https://github.com/shyguyMatt/Card-Game-Engine"]
   },
   {
     "title": "Librarian Script",
