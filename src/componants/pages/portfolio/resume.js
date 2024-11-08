@@ -35,7 +35,7 @@ export default function Projects(props) {
         </div>
         <div id='resume-summary'>
           <h2>Summary</h2>
-          <p>Results-driven and creative Full Stack Web Developer with over 2 years of hands-on experience in web development. Proficient in JavaScript, CSS, HTML, and a range of cutting-edge technologies including React, MongoDB, Express, and Node. Adept at translating innovative ideas into fully functional applications. Demonstrated ability to meet and exceed project deadlines, coupled with a strong commitment to continuous learning. Excited about leveraging my technical skills and problem-solving abilities to contribute effectively to the team.</p>
+          <p>Detail-oriented and tech-savvy Junior Software Engineer with a background in web development, software troubleshooting, and customer support. Proficient in front-end and back-end development, including HTML, CSS, and JavaScript, with a strong foundation in responsive design and UI/UX principles. Skilled in problem-solving, debugging, and optimizing code for performance and scalability. Experienced in customer-facing roles, bringing excellent communication and collaboration skills to bridge technical and non-technical teams. Eager to leverage my technical skills, continuous learning mindset, and hands-on experience with small electronics and PC repair in a collaborative development environment.</p>
         </div>
         <div id='resume-skills'>
           <h2>Technical Skills</h2>
@@ -49,10 +49,10 @@ export default function Projects(props) {
         </div>
         <div id='resume-experiance'>
           <h2>Experience</h2>
-          <p>Car Wash Associate | Sparkle Buggy | Burton, Center Rd | 2020-2023</p>
-          <h3>Summary</h3>
+          <h3>Car Wash Associate | Sparkle Buggy | Burton, Center Rd | 2020-2023</h3>
+          <h4>Summary</h4>
           <p>As a Car Wash Associate at Sparkle Buggy, I demonstrated effective leadership and decision-making skills as the designated Shift Lead. In this role, I was responsible for overseeing daily schedules for a team of 4-6 individuals. My primary duties included managing workflow efficiency, ensuring timely completion of tasks, and maintaining a positive customer experience.</p>
-          <h3>Key Accomplishments</h3>
+          <h4>Key Accomplishments</h4>
           <ul>
             <li>
               <p>Staffing Management</p>
@@ -79,6 +79,60 @@ export default function Projects(props) {
               <p>Performance Recognition</p>
               <ul>
                 <li>Received positive feedback and recognition for adaptability and decision-making skills, with indications of eligibility for promotion if not for academic commitments.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Retail Cashier | Meijer | Grand Ledge, MI | January - July 2024</h3>
+          <h4>Summary</h4>
+          <p>As a grocery store cashier, I provided excellent customer service by assisting customers with purchases and inquiries. I efficiently handled cash transactions, credit card payments, and gift cards with accuracy. I maintained a clean and organized checkout area to ensure a pleasant shopping experience. During slower periods, I assisted in restocking shelves and organizing merchandise. I collaborated with team members to ensure smooth store operations and customer satisfaction. Through this role, I developed strong communication skills by interacting with a diverse customer base and gained proficiency in using point-of-sale (POS) systems and other store technology.</p>
+          <h4>Key Accomplishments</h4>
+          <ul>
+            <li>
+              <p>Swift Service</p>
+              <ul>
+                <li>Consistently provide help to customers within 12 seconds of help light turning on.</li>
+                <li>Received praise from head of store for being one of the fastest self-checkout clerks.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Systems Maintenence</p>
+              <ul>
+                <li>Proven ability to troubleshoot and maintain POS Terminals.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Indepandent</p>
+              <ul>
+                <li>Using the tools provided to me, I can solve almost any problem that a customer has.</li>
+                <li>Often manage 15 self-checkout lanes solo while providing excellent service.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Reliable</p>
+              <ul>
+                <li>Always show up on time and have had 0 days late.</li>
+                <li>Can manage whatever is tasked to me without worry..</li>
+                <li>Given a little training I can manage tasks outside my role when needed.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Amazon Associate | Amazon | Lansing, MI | 2024 - present</h3>
+          <h4>Summary</h4>
+          <p>My role at amazon is to move and push boxes weighing up to 50lbs onto or across conveyor belts. Maintaining focus for 10 hours a day, to get boxes correctly into their spots in the warehouse.</p>
+          <h4>Key Accomplishments</h4>
+          <ul>
+            <li>
+              <p>Adaptability</p>
+              <ul>
+                <li>Proven ability to adapt to whatever task is needed at any time.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Performance Recognition</p>
+              <ul>
+                <li>Recieved 2 accolades in 2 months for perfect attendance.</li>
               </ul>
             </li>
           </ul>
